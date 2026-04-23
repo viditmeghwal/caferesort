@@ -184,10 +184,14 @@
   /* ------------- FAQ accordion ------------- */
   document.querySelectorAll(".faq__item").forEach((item) => {
     const btn = item.querySelector(".faq__q");
-    if (!btn) return;
+    const answer = item.querySelector(".faq__a");
+    if (!btn || !answer) return;
     btn.addEventListener("click", () => {
       const open = item.classList.toggle("is-open");
       btn.setAttribute("aria-expanded", open ? "true" : "false");
+      answer.style.maxHeight = open ? answer.scrollHeight + "px" : "0";
+      const icon = btn.querySelector(".faq__icon");
+      if (icon) icon.textContent = open ? "−" : "+";
     });
   });
 

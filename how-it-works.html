@@ -17,7 +17,7 @@
     <div class="nav__links">
       <a href="index.html" class="nav__link nav__link--key">Home</a>
       <a href="sample-audit.html" class="nav__link nav__link--key">Audit sample</a>
-      <a href="#" class="nav__cta" data-cursor="Join">Join</a>
+      <a href="#pricing" class="nav__cta" data-cursor="Join">Join</a>
     </div>
   </nav>
 
@@ -131,14 +131,14 @@
   </section>
 
   <!-- Pricing -->
-  <section class="section" style="background: var(--espresso); color: var(--cream);">
+  <section class="section" id="pricing" style="background: var(--espresso); color: var(--cream);">
     <div class="container" style="max-width: 600px; text-align: center;">
       <span class="eyebrow" style="color: var(--crema);">Pricing</span>
       <h2 style="color: var(--cream); margin-bottom: 1rem; font-size: 3rem;">$15</h2>
       <p style="font-size: 1.0625rem; margin-bottom: 2rem; max-width: 55ch;">
         One flat fee. Covers everything. No retainer. No upsell. Delivered in 48 hours.
       </p>
-      <button class="btn btn--primary btn--large" style="margin-bottom: 2rem;" data-cursor="Pay now">Pay now</button>
+      <a href="mailto:hello@grindandglow.in?subject=Audit%20request&amp;body=Hi%2C%20I'd%20like%20to%20request%20an%20audit.%0A%0AInstagram%20handle%3A%0AMain%20goal%3A%0A" class="btn btn--primary btn--large" style="margin-bottom: 2rem; display: inline-block;" data-cursor="Email us">Start my audit →</a>
       <p style="font-size: 0.9rem; color: var(--crema); line-height: 1.6;">
         Email us your handle and goal. We'll send you a Stripe link. Once paid, we audit within 48 hours and send your zine + Loom walkthrough.
       </p>
@@ -156,7 +156,7 @@
         <div class="faq__item">
           <button class="faq__q" style="width: 100%; text-align: left; padding: 1.5rem; background: var(--paper); border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
             <span style="font-weight: 600;">Do you do other platforms?</span>
-            <span style="font-size: 1.5rem;">+</span>
+            <span class="faq__icon" style="font-size: 1.5rem;">+</span>
           </button>
           <div class="faq__a" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease-out;">
             <div style="padding: 1.5rem; border-left: 2px solid var(--burnt); background: rgba(242, 232, 216, 0.6);">
@@ -168,7 +168,7 @@
         <div class="faq__item">
           <button class="faq__q" style="width: 100%; text-align: left; padding: 1.5rem; background: var(--paper); border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
             <span style="font-weight: 600;">Can I get an audit if I'm a pizza place in Mumbai?</span>
-            <span style="font-size: 1.5rem;">+</span>
+            <span class="faq__icon" style="font-size: 1.5rem;">+</span>
           </button>
           <div class="faq__a" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease-out;">
             <div style="padding: 1.5rem; border-left: 2px solid var(--burnt); background: rgba(242, 232, 216, 0.6);">
@@ -180,7 +180,7 @@
         <div class="faq__item">
           <button class="faq__q" style="width: 100%; text-align: left; padding: 1.5rem; background: var(--paper); border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
             <span style="font-weight: 600;">How quickly do I see results?</span>
-            <span style="font-size: 1.5rem;">+</span>
+            <span class="faq__icon" style="font-size: 1.5rem;">+</span>
           </button>
           <div class="faq__a" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease-out;">
             <div style="padding: 1.5rem; border-left: 2px solid var(--burnt); background: rgba(242, 232, 216, 0.6);">
@@ -192,7 +192,7 @@
         <div class="faq__item">
           <button class="faq__q" style="width: 100%; text-align: left; padding: 1.5rem; background: var(--paper); border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
             <span style="font-weight: 600;">What if I have an existing agency contract?</span>
-            <span style="font-size: 1.5rem;">+</span>
+            <span class="faq__icon" style="font-size: 1.5rem;">+</span>
           </button>
           <div class="faq__a" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease-out;">
             <div style="padding: 1.5rem; border-left: 2px solid var(--burnt); background: rgba(242, 232, 216, 0.6);">
@@ -204,7 +204,7 @@
         <div class="faq__item">
           <button class="faq__q" style="width: 100%; text-align: left; padding: 1.5rem; background: var(--paper); border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
             <span style="font-weight: 600;">Can I get a refund?</span>
-            <span style="font-size: 1.5rem;">+</span>
+            <span class="faq__icon" style="font-size: 1.5rem;">+</span>
           </button>
           <div class="faq__a" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease-out;">
             <div style="padding: 1.5rem; border-left: 2px solid var(--burnt); background: rgba(242, 232, 216, 0.6);">
@@ -216,7 +216,7 @@
         <div class="faq__item">
           <button class="faq__q" style="width: 100%; text-align: left; padding: 1.5rem; background: var(--paper); border-radius: 4px; display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
             <span style="font-weight: 600;">Do you do bulk audits for multiple accounts?</span>
-            <span style="font-size: 1.5rem;">+</span>
+            <span class="faq__icon" style="font-size: 1.5rem;">+</span>
           </button>
           <div class="faq__a" style="overflow: hidden; max-height: 0; transition: max-height 0.3s ease-out;">
             <div style="padding: 1.5rem; border-left: 2px solid var(--burnt); background: rgba(242, 232, 216, 0.6);">
@@ -268,21 +268,6 @@
   </footer>
 
   <script src="js/shared.js"></script>
-  <script>
-    // FAQ expand
-    document.querySelectorAll('.faq__q').forEach(btn => {
-      btn.addEventListener('click', function() {
-        const item = this.parentElement;
-        const isOpen = item.classList.toggle('is-open');
-        const answer = item.querySelector('.faq__a');
-        if (isOpen) {
-          answer.style.maxHeight = answer.scrollHeight + 'px';
-        } else {
-          answer.style.maxHeight = '0';
-        }
-      });
-    });
-  </script>
 
 </body>
 </html>
